@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Linear gradient from top left to bottom right */
+  background: linear-gradient(135deg, #a8c0ff, #3f2b96); /* Adjust colors as needed */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #fcfff3; /* Slightly different light background for the container */
+  padding: 50px;
+  border-radius: 10px; /* Optional: rounded corners for the container */
+}
+
+input {
+  padding: 15px;
+  border: none;
+  outline: none;
+  background: #f5f9eb; /* Match background color with body */
+  width: 300px;
+  margin-right: 10px;
+}
+
+button {
+  border-radius: 100px;
+  background: #454545; /* Dark background for button */
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.todos-list {
+  margin-top: 3rem;
+}
+
+.todo {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(245, 249, 235, 0.7); /* Semi-transparent background */
+  padding: 7px 20px;
+  margin: 10px;
+  font-family: sans-serif;
+}
+
+.close {
+  padding: 5px 10px;
+  cursor: pointer;
+}
